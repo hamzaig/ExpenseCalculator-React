@@ -7,7 +7,7 @@ const ExpenseForm = () => {
             <div className="new-expense__controls">
                 <div className="new-expense__control">
                     <label>Title</label>
-                    <input type="text" />
+                    <input type="text" onChange={(e) => (console.log(e.target.value))} />
                 </div>
                 <div className="new-expense__control">
                     <label>Amount</label>
